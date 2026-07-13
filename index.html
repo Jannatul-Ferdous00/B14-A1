@@ -3,28 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>DevConf</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="./style.css">
 </head>
-<body>
-   <header>
+<body class="inter">
+        <header class="navbar">
+    <div class="container">
+
+        <div class="logo">
+            <img src="./assets/logo.png" alt="">
+        </div>
+
         <nav>
-            <div>
-               <img src="./assets/logo.png" alt="">
-            </div>
-            <ul class="links">
-                <li><a href="">Speakers</a></li>
-                <li><a href="">Schedule</a></li>
-                 <li><a href="">Tracks</a></li>
-                 <li><a href="">Venue</a></li>
-                 <li><a href="">Blog</a></li>
+            <ul>
+                <li><a href="#">Speakers</a></li>
+                <li><a href="#">Schedule</a></li>
+                <li><a href="#">Tracks</a></li>
+                <li><a href="#">Venue</a></li>
+                <li><a href="#">Blog</a></li>
             </ul>
-            <div>
-                <button class="btn">Register Now</button>
-            </div>
         </nav>
-        </header>
-         
+
+        <a href="#" class="btn">Register Now</a>
+
+    </div>
+</header>
+         <!-- Banner -->
         <section id="banner">
             <div class="banner-content">
                 <h1 class="banner-h1">Code. Connect. Create</h1>
@@ -32,7 +40,7 @@
                 <button class="btn-1">Register Now</button>
             </div>
         </section>
-
+<!-- Speakers -->
         <section class="speakers">
   <h2>Meet the Speakers</h2>
 
@@ -75,7 +83,6 @@
     </div>
   </div>
 </section>
-
 <!-- Pricing Section -->
  <section class="pricing">
 
@@ -146,11 +153,30 @@
             </ul>
 
             <button>Contact Us</button>
-
         </div>
-
     </div>
+</section>
+<!-- CTA -->
+ <section class="cta">
+
+    <h2>Ready to Join DevConf 2026?</h2>
+
+    <p>
+        Reserve your seat today and learn from world-class developers.
+    </p>
+
+    <a href="#">Register Now</a>
 
 </section>
+<!-- footer -->
+ <footer class="footer">
+  <div class="footer-container">
+    <p>© 2026 DevConf. All rights reserved.</p>
+    <div class="footer-links">
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms of Service</a>
+    </div>
+  </div>
+</footer>
 </body>
 </html>
